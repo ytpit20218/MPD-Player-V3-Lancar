@@ -43,7 +43,7 @@ mv /etc/mpdplayer/mpd.conf /etc/mpdplayer/mpd-old.conf
 
 6.
 Download V3 files
-wget https://github.com/DRM-Scripts/MPD-Player/raw/master/mpdplayer.tar
+wget https://github.com/ytpit20218/MPD-Player-V3-Lancar/raw/main/mpdplayer.tar
 tar -xf mpdplayer.tar
 
 7.
