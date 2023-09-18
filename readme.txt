@@ -30,7 +30,7 @@ mount -t tmpfs -o size=1024M tmpfs /tmp/ramdisk
 4.
 Install your Deb package
 cd /home
-wget https://github.com/DRM-Scripts/MPD-Player/raw/master/mpd_player.deb
+wget https://github.com/ytpit20218/MPD-Player-V3-Lancar/raw/main/mpd_player.deb
 dpkg -i mpd_player.deb
 
 After install mpdplayer start automatic
