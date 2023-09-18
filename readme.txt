@@ -7,13 +7,19 @@ Installation Mpdplayer 3.0 (Lancar)
 
 1.
 Install Java 17 on Ububntu 20.04 or 18.04
-https://ubuntuhandbook.org/index.php/2021/03/oracle-java-16-released-install-ubuntu-20-04/
+sudo apt-get update
+sudo apt-get install software-properties-common
+sudo add-apt-repository ppa:linuxuprising/java
+sudo apt update
+sudo apt install oracle-java17-installer
 
 2.
 Install latest FFMPEG or use your old ( Advice use lates for quick start)
 wget https://johnvansickle.com/ffmpeg/releases/ffmpeg-release-amd64-static.tar.xz
 tar -xf ffmpeg-release-amd64-static.tar.xz
-then copy file ffmpeg from root to usr/bin
+cd ffmpeg-6.0-amd64-static/
+mv ffmpeg /usr/bin/
+mv ffprobe /usr/bin/
 
 3.
 Make Ramdisk 
